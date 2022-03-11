@@ -3,12 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/service/IcollectionService.java</file>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/service/CollectionService.java</file>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/model/Collection.java</file>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/model/Cartes.java</file>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/service/CartesService.java</file>
-            <file>file:/C:/Users/admin/Documents/Metastone/src/tn/edu/esprit/service/IcartesService.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/BackviewoftournoiController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/gui/src/style.css</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/service/StripeClass.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/gui/InscriptionController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/service/CartesService.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/DemandeFrontController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/OnecommentviewbackController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/gui/DemandeFront.fxml</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/metastone/MetaStone.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/model/Cartes.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/EvenementbackendController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/DashboardforumbackendController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/gui/HomeController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/service/ServiceDemande.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/Controller/DashboardController.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/model/Demande.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/service/stripeInterface.java</file>
+            <file>file:/C:/Users/admin/Documents/NetBeansProjects/Metastone/src/tn/edu/esprit/gui/LoginController.java</file>
         </group>
     </open-files>
 </project-private>

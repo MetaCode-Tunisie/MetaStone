@@ -19,6 +19,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import tn.edu.esprit.model.Utilisateur;
 import tn.edu.esprit.service.Iservices;
@@ -60,19 +61,43 @@ public class LoginController implements Initializable {
             Utilisateur U=new Utilisateur();
             U=Us.getUtilisateur(username.getText());
             System.out.println("Connected");
-        
+            if(U.getRole().equals("utilisateur") )
+            {
+                if(U.getEtat().equals("activer")){
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
              fxml=loader.load(); 
              HomeController homecontroller=loader.getController();
              U=USER.getUtilisateur(U.getID_UTILISATEUR());
              homecontroller.setUtilisateur(U);
-
              stage=(Stage)((Node)event.getSource()).getScene().getWindow();
              scene=new Scene(fxml);
+             scene.setFill(Color.TRANSPARENT);
              stage.setScene(scene);
+             
              stage.centerOnScreen();
 
              stage.show();
+                
+                }
+                else {System.out.println("Ce compte est desactiver");}
+            }
+            else{
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("dashboard.fxml"));
+             fxml=loader.load(); 
+             stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+             scene=new Scene(fxml);
+             scene.setFill(Color.TRANSPARENT);
+             stage.setScene(scene);
+             
+             stage.centerOnScreen();
+
+             stage.show();
+            
+            }
+             
+             
+             
+             
              
         }
         else{
@@ -88,6 +113,7 @@ public class LoginController implements Initializable {
              stage=(Stage)((Node)event.getSource()).getScene().getWindow();
              scene=new Scene(fxml);
              stage.setScene(scene);
+             stage.centerOnScreen();
              stage.show();
         
     }
@@ -105,6 +131,7 @@ public class LoginController implements Initializable {
              stage=(Stage)((Node)event.getSource()).getScene().getWindow();
              scene=new Scene(fxml);
              stage.setScene(scene);
+             stage.centerOnScreen();
              stage.show();
     }
     
